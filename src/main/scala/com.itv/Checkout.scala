@@ -17,7 +17,6 @@ case class Checkout(items: List[Sku]) {
         nonPromoQuantity * sku.unitPrice + promoQuantity * promo.price
 
     }
-
   }
 }
 
